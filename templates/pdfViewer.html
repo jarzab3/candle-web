@@ -1,0 +1,31 @@
+{% include "header-min.html" %}
+
+<head>
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar.navbar-inverse{
+            margin: 0;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <object style="height: 100vh !important; width: 100% !important;" data="{{ url_for('static',filename='other/adam_jarzebak_cv.pdf') }}" type="application/pdf" width="100%" height="100%">
+  <p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
+</object>
+    
+
+{% include "footer.html" %}
+
+
+</body>
+
