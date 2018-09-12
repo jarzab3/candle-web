@@ -71,5 +71,5 @@ def api_query_task():
 
 if __name__ == '__main__':
     # app.run(host='0.0.0.0', port=443, threaded=True, ssl_context=('/etc/letsencrypt/live/adam.sobmonitor.org/fullchain.pem','/etc/letsencrypt/live/adam.sobmonitor.org/privkey.pem'))
-    app.run(host='0.0.0.0', port=80, threaded=True, debug=True)
+    app.run(host='0.0.0.0', port=3000, threaded=True, debug=False)
     log.debug("Started up analysis app")
